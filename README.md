@@ -16,8 +16,10 @@ To set up the database:
 2. Use the `SOURCE` command in MySQL to execute the SQL file and create the database.
 
 ---
+### Database Schema
+Below is the schema of the MySQL sample database:
 
-![plot](.D:/python/Online store dataset/Analysis data/reports/figures/mysql-sample-database.png)
+![MySQL Sample Database Schema](.Analysis data/reports/figures/mysql-sample-database.png)
 
 ## Tasks and Queries in the Database
 
