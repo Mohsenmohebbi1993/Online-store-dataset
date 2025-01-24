@@ -17,7 +17,7 @@ To set up the database:
 
 ---
 
-![MySQL Sample Database Schema](.D:/python/Online store dataset/Analysis data/reports/figures/mysql-sample-database.png)
+![plot](.D:/python/Online store dataset/Analysis data/reports/figures/mysql-sample-database.png)
 
 ## Tasks and Queries in the Database
 
