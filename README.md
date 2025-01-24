@@ -19,7 +19,7 @@ To set up the database:
 ### Database Schema
 Below is the schema of the MySQL sample database:
 
-![MySQL Sample Database Schema](.Analysis data/reports/figures/mysql-sample-database.png)
+![MySQL Sample Database Schema](./reports/figures/mysql-sample-database.png)
 
 ## Tasks and Queries in the Database
 
