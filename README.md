@@ -17,6 +17,8 @@ To set up the database:
 
 ---
 
+![MySQL Sample Database Schema](.D:/python/Online store dataset/Analysis data/reports/figures/mysql-sample-database.png)
+
 ## Tasks and Queries in the Database
 
 In this section, you will write several SQL queries to extract data from the database. Below are some suggested questions:
