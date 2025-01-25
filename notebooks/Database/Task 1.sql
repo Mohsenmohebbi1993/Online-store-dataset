@@ -7,6 +7,7 @@ limit 5;
 
 # How many times has each product been ordered? Please include the product name in the table.
 SELECT p.productCode, p.productName, SUM(od.quantityOrdered) AS total_ordered
-FROM orderdetails od
-JOIN products p ON od.productCode = p.productCode
-GROUP BY p.productCode, p.productName;
+FROM products p
+JOIN orderdetails od ON od.productCode = p.productCode
+GROUP BY p.productCode, p.productName
+ORDER BY total_ordered DESC;
