@@ -27,3 +27,16 @@ join customers c on c.customerNumber = os.customerNumber
 group by orderNumber) as t
 group by t.customerNumber, t.customerName
 order by sum(quantity_Ordered) desc;
+
+# What is the largest product (in terms of productScale) that each customer has ordered?
+select t.customerNumber, t.customerName, max(productScale)
+from(select 
+       o.customerNumber, c.customerName,
+	   p.productCode, p.productName, p.productScale,
+       os.orderNumber
+from products p
+join orderdetails os on p.productCode = os.productCode
+join orders o on o.orderNumber = os.orderNumber
+join customers c on o.customerNumber = c.customerNumber
+order by orderNumber) as t
+group by t.customerNumber, t.customerName;
