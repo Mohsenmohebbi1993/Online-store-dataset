@@ -1,6 +1,8 @@
 # Data
 /data/
 
+#folder
+/online_store_venv/
 # Mac OS-specific storage files
 .DS_Store
 
